@@ -12,10 +12,15 @@ each task is stored on a separate line in the text file. Each line
 includes the following data about a task in this order:
 
 ■ The username of the person to whom the task is assigned.
+
 ■ The title of the task.
+
 ■ A description of the task.
+
 ■ The date that the task was assigned to the user.
+
 ■ The due date for the task.
+
 ■ Either a ‘Yes’ or ‘No’ value that specifies if the task has been
 completed yet.
 
@@ -28,7 +33,9 @@ user must be written to this file in the following format:
 
 ■ First, the username followed by a comma, a space and then
 the password.
+
 ■ One username and corresponding password per line.
+
 ● Your program should allow your users to do the following:
 
 ○ Login. The user should be prompted to enter a username and
@@ -58,6 +65,7 @@ the task has been completed or not is ‘No’.
 
 ○ If the user chooses ‘va’ to view all tasks, display the information for
 each task on the screen in an easy to read format.
+
 ○ If the user chooses ‘vm’ to view the tasks that are assigned to them,
 only display all the tasks that have been assigned to the user that is
 currently logged-in in a user-friendly, easy to read manner.
